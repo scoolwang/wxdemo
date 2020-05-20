@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 城市选择 -->
+  <view class="uploader">
+    <navigator url="../citySelect/citySelect" open-type="navigate" class="uploader-text">
+      <text>城市选择</text>
+    </navigator>
+  </view>
+
+
+
+</view>

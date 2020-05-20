@@ -1,0 +1,72 @@
+/* pages/citySelect/citySelect.wxss */
+
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+    display: none;
+  }
+
+  .sort {
+    position: fixed;
+    right: -10rpx;
+    top: 0rpx;
+    bottom: 30rpx;
+    z-index: 11;
+    width: 60rpx;
+    overflow: hidden;
+
+  }
+  .cn-name {
+    padding: 10rpx 0;
+    width: 40rpx;
+    text-align: center;
+    font-size: 20rpx;
+  }
+
+
+
+  .cell {
+    margin-bottom: 60rpx;
+  }
+
+  .cell-title {
+    margin-bottom: 28rpx;
+  }
+
+  .page {
+    padding: 0 42rpx 0 28rpx;
+  }
+
+  .sort {}
+
+  .pinyin {
+    height: 60rpx;
+    background: rgba(0, 176, 160, 0.06);
+    padding-left: 20rpx;
+    line-height: 60rpx;
+    color: #00B0A0;
+  }
+
+  .city-list {
+    margin-right: 20rpx;
+
+
+  }
+  .name {
+    padding: 30rpx 0;
+    border-bottom: 1rpx solid rgba(221, 221, 221, 0.5);
+  }
+
+
+  .cell-title {
+    font-size: 26rpx;
+    color: #4A4A4A;
+  }
+
+  view,
+  text {
+    color: #4A4A4A;
+    font-size: 26rpx;
+  }
+

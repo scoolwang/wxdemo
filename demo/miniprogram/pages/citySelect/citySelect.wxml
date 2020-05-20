@@ -1,0 +1,14 @@
+
+<view class="page">
+  <view class="city-list">
+    <view wx:for="{{list}}" wx:key="index">
+      <view class="{{'pinyin-'+item.pyFirst}} pinyin"  wx:if="{{item.pyFirst !=list[index-1].pyFirst}}">{{item.pyFirst}}</view>
+      <view class="name" bindtap="select(item.name, 1)">{{item.name}}</view>
+    </view>
+  </view>
+  <scroll-view class="sort" scroll-y="{{true}}" bindtouchmove="move">
+    <view class="cn-name" wx:for="{{sort}}" wx:key="index" data-key="{{item}}" bindtap="scroll">
+      {{item}}
+    </view>
+  </scroll-view>
+</view>
